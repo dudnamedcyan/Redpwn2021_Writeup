@@ -4,6 +4,6 @@
 **category: rev**
 
 **description:**
-![file](images/bread-making_screenshot.png)
+![file](images/bread-making_screenshot.jpg)
 
 
