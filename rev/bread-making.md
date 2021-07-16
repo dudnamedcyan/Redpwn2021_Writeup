@@ -277,4 +277,52 @@ the timer ticks down
 use the oven timer
 set a timer on your phone
 ```
+So one thing I didn't do yet was running the code. I decided to run the code and the program outputted:
+```
+add ingredients to the bowl
+```
+Now, looking at the long list of instructions and situations, we can use logic to solve this problem. Also, the instructions to input are usually somewhere near the situations in the big block of text.
 
+First example:
+At the first prompt, we have to add ingredients. If we seach for the same statement in that big block of text, right below it, we can find:
+```
+add flour
+add yeast
+add salt
+add water
+```
+So we input that and we get the second prompt. However, there are some wrong inputs, so we have to trial and error with them until we get the right ones. There are also time limits, so make sure that you type in the inputs quick. Continue with that until we get to the end of the program where the flag is. You can use the netcat command or just run the file on your own system.
+(During this part, I forgot that the input and output lanes/streams are actually different. That means I could've just pasted all of the instructions into the terminal instead of typing all of it out, but I didn't do that)
+(There was one part which I had to tyep really fast for, and that would've been solved if I just pasted the whole input in. I already had all the inputs in a txt file, and I just forgot that I could paste the input into the terminal)
+
+So, by using some logic and searching, we get these instructions as the correct answers:
+```
+add ingredients to the bowl
+add flour
+add yeast
+add salt
+add water
+hide the bowl inside a box
+wait 3 hours
+work in the basement
+preheat the toaster oven
+set a timer on your phone
+watch the bread bake
+pull the tray out with a towel
+unplug the fire alarm
+open the window
+unplug the oven
+clean the counters
+flush the bread down the toilet
+wash the sink
+get ready to sleep
+close the window
+replace the fire alarm
+brush teeth and go to bed
+```
+By pasting all of those inputs, we get the flag.
+The flag is: flag{m4yb3_try_f0ccac1a_n3xt_t1m3???0r_dont_b4k3_br3ad_at_m1dnight}
+
+I think there might have been a way to decompile all of the code and just take all of the inputs without having to use logic and look at all of the inputs. If there is, feel free to open a new issue in this repository and tell me about it. That is, if there isn't already one.
+
+**thanks for reading my writeup**
