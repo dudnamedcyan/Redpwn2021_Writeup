@@ -20,7 +20,7 @@ They have also given us `nc mc.ax 31796` (later on my team told me it was netcat
 
 (I overthought this problem too much and spent around 3+ hours on this problem. Do not overthink problems, it's a bad habit of mine)
 
-The first thing I did was not put it into Ghidra, but open it in notepad++.(Which is *definitely* the best thing to do for reverse engineering problems) Somehow, I got lucky and saw text in the file. Dual-booting into Ubuntu, I downloaded the file and used Strings on the file. (Later on, I would use a Kali-Linux virtual machine which is much easier)
+The first thing I did was not put it into Ghidra, but open it in notepad++.(Which is *definitely*(no, not really) the best thing to do for reverse engineering problems) Somehow, I got lucky and saw text in the file. Dual-booting into Ubuntu, I downloaded the file and used Strings on the file. (Later on, I would use a Kali-Linux virtual machine which is much easier)
 
 The output of the strings'd file:
 #### first page
