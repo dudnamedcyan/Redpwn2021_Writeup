@@ -176,4 +176,4 @@ The flag is: flag{m4yb3_try_f0ccac1a_n3xt_t1m3???0r_dont_b4k3_br3ad_at_m1dnight}
 
 I think there might have been a way to decompile all of the code and just take all of the inputs without having to use logic and look at all of the inputs. If there is, feel free to open a new issue in this repository and tell me about it. That is, if there isn't already one.
 
-**thanks for reading my writeup**
+**thanks for reading my writeup!**
